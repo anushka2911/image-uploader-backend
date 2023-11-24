@@ -1,0 +1,32 @@
+{
+  "anushhkap161@gmail.com": {
+    "email": "anushhkap161@gmail.com",
+    "password": "qwerty123",
+    "role": "admin",
+    "is_deleted": false
+  },
+  "anushkap161@gmail.com": {
+    "email": "anushkap161@gmail.com",
+    "password": "qwerty123",
+    "role": "admin",
+    "is_deleted": false
+  },
+  "john.doe@example.com": {
+    "email": "john.doe@example.com",
+    "password": "password123",
+    "role": "user",
+    "is_deleted": false
+  },
+  "navnee291@gmail.com": {
+    "email": "navnee291@gmail.com",
+    "password": "mnbvcxz123",
+    "role": "user",
+    "is_deleted": false
+  },
+  "shawshank@gmail.com": {
+    "email": "shawshank@gmail.com",
+    "password": "asdfg23",
+    "role": "admin",
+    "is_deleted": false
+  }
+}
