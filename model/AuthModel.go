@@ -22,6 +22,11 @@ type LoginRequest struct {
 	Password string `json:"password"`
 }
 
+type ImageDetail struct {
+	FileName string `json:"file_name"`
+	Labels   string `json:"labels"`
+}
+
 func LoadUsersFromFile(filename string) (*UserFile, error) {
 	file, err := os.ReadFile(filename)
 	if err != nil {
