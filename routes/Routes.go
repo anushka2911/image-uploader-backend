@@ -13,5 +13,7 @@ func AuthRoutes(router *gin.Engine, userDB *model.UserFile) {
 	router.POST("/login", controllers.Login(userDB))
 	router.POST("/signup", controllers.SignUp(userDB))
 	router.POST("/upload-image", controllers.UploadImage())
-	router.GET("/get-images", controllers.GetImages())
+	router.POST("/get-images", controllers.GetImages()) //to get all images
+	// //edit image
+	// router.POST("/edit-image", controllers.EditImage())
 }
