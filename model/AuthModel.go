@@ -1,4 +1,3 @@
-// model/user.go
 package model
 
 import (
@@ -25,6 +24,11 @@ type LoginRequest struct {
 type ImageDetail struct {
 	FileName string `json:"file_name"`
 	Labels   string `json:"labels"`
+}
+
+type EditImageRequest struct {
+	FileName string `form:"file_name"`
+	Labels   string `form:"labels"`
 }
 
 func LoadUsersFromFile(filename string) (*UserFile, error) {
