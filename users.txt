@@ -17,6 +17,18 @@
     "role": "user",
     "is_deleted": false
   },
+  "judymartin@gzott.me": {
+    "email": "judymartin@gzott.me",
+    "password": "somepswd",
+    "role": "user",
+    "is_deleted": false
+  },
+  "judymartin@yahoo.com": {
+    "email": "judymartin@yahoo.com",
+    "password": "somepswd",
+    "role": "admin",
+    "is_deleted": false
+  },
   "navnee291@gmail.com": {
     "email": "navnee291@gmail.com",
     "password": "mnbvcxz123",
